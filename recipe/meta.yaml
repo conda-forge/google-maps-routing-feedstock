@@ -1,5 +1,5 @@
 {% set name = "google-maps-routing" %}
-{% set version = "0.8.0" %}
+{% set version = "0.9.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: c1517a5d5c53670cafe65ccfa1f82971b3211a33c8b65d28f9cb5270b7b4c647
+  sha256: 47f761bca4ed335b09a55039110c7481ce4d836499667511068b5db3e0a0e6ea
 
 build:
   noarch: python
